@@ -1,0 +1,14 @@
+{
+  "error": {
+    "genericTitle": "Упс!",
+    "genericDescription": "Произошла непредвиденная ошибка.",
+    "notFoundTitle": "404",
+    "notFoundDescription": "Запрошенная страница не найдена.",
+    "serverError": "Ошибка"
+  },
+  "language": {
+    "select": "Выбрать язык",
+    "russian": "Русский",
+    "english": "Английский"
+  }
+}
