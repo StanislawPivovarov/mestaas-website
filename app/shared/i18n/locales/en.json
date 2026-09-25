@@ -1,0 +1,14 @@
+{
+  "error": {
+    "genericTitle": "Oops!",
+    "genericDescription": "An unexpected error occurred.",
+    "notFoundTitle": "404",
+    "notFoundDescription": "The requested page could not be found.",
+    "serverError": "Error"
+  },
+  "language": {
+    "select": "Select language",
+    "russian": "Russian",
+    "english": "English"
+  }
+}

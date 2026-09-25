@@ -1,6 +1,6 @@
 # AI Agent Skills — Full Catalog
 
-> Auto-generated. Total: **2464 skills** across **123 categories**.
+> Auto-generated. Total: **2465 skills** across **123 categories**.
 > When asked "what skill should I use?", browse this file and suggest the most relevant skill IDs.
 > Install a skill: `Ctrl+Shift+/` → search for the skill ID → press Enter.
 
@@ -907,18 +907,18 @@ market, solution, financials, and strategy
 - **monte-carlo-prevent**: Surfaces Monte Carlo data observability context (table health, alerts, lineage, blast radius) before SQL/dbt edits. _(risk: safe)_
 - **monte-carlo-push-ingestion**: Expert guide for pushing metadata, lineage, and query logs to Monte Carlo from any data warehouse. _(risk: safe)_
 - **monte-carlo-validation-notebook**: Generates SQL validation notebooks for dbt PR changes with before/after comparison queries. _(risk: safe)_
+- **nexrad-mosaic-access**: Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance. _(risk: safe)_
+- **nexrad-product-access**: Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation. _(risk: safe)_
+- **noaa-radar-satellite-fetching**: Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection. _(risk: safe)_
 - **optim-agent**: Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference tuning, simulations, or RL/control experiments. _(risk: safe)_
 - **postgres-readonly-queries**: Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth write protection. _(risk: safe)_
 - **sql-sentinel**: Audit SQL for the cost & performance anti-patterns that burn warehouse credits. Scores warehouse health 0-100 and outputs a prioritized cost-reduction plan for BigQuery, Snowflake, Redshift, and Postgres. _(risk: critical)_
 - **warehouse**: Plan and review read-only data warehouse analysis with explicit scope, privacy, provenance, and validation checks. _(risk: critical)_
-- **weather-model-data-fetching**: Retrieve numerical weather prediction data from public AWS S3 and HTTP archives using GRIB2 inventories, byte ranges, Herbie, provider fallbacks, and verified caching. _(risk: safe)_
-- **weather-observation-fetching**: Retrieve surface and upper-air weather observations from authoritative APIs and archives with station identity, time, units, and quality flags preserved. _(risk: safe)_
-- **nexrad-mosaic-access**: Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance. _(risk: safe)_
-- **nexrad-product-access**: Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation. _(risk: safe)_
-- **noaa-radar-satellite-fetching**: Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection. _(risk: safe)_
 - **weather-data-lifecycle-management**: Manage ownership, retention, and cleanup of downloaded weather data across one-shot jobs, interactive viewers, caches, failures, and cancellation. _(risk: safe)_
 - **weather-data-reproducibility**: Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, selections, software versions, transformations, and hashes. _(risk: safe)_
+- **weather-model-data-fetching**: Retrieve numerical weather prediction data from public AWS S3 and HTTP archives using GRIB2 inventories, byte ranges, Herbie, provider fallbacks, and verified caching. _(risk: safe)_
 - **weather-model-run-discovery**: Resolve the newest complete numerical weather prediction cycle and forecast objects across provider mirrors without downloading full payloads. _(risk: safe)_
+- **weather-observation-fetching**: Retrieve surface and upper-air weather observations from authoritative APIs and archives with station identity, time, units, and quality flags preserved. _(risk: safe)_
 - **weather-pipeline-performance-diagnosis**: Diagnose slow weather-data workflows by measuring discovery, transfer, parsing, scientific processing, and rendering separately before changing code. _(risk: safe)_
 
 ## data-ai
@@ -1854,12 +1854,12 @@ strategy and planning.
 - **videodb-skills**: Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK. _(risk: safe)_
 - **atlas-cloud-media**: Generate Atlas Cloud images and videos through its asynchronous media API with schema-first model selection and credential-safe polling. _(risk: critical)_
 - **beatra-ai-video-studio**: Install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service. _(risk: critical)_
+- **film-crew**: Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway. _(risk: safe)_
 - **generate-nanobanana**: Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call. _(risk: critical)_
 - **image-generator**: Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editing task. _(risk: safe)_
 - **md2video-audio**: Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration. _(risk: safe)_
 - **muapi-media**: Generate images and videos with MuAPI's schema-driven asynchronous media API while protecting keys, polling, and output downloads. _(risk: critical)_
 - **video-router**: Route a video-production brief to generation, deterministic composition, supplied-footage editing, or an automatic cross-modal plan before production begins.
-- **film-crew**: Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway. _(risk: safe)_
 
 ## media-processing
 
@@ -2385,6 +2385,7 @@ analysis across multiple languages and frameworks
 - **llm-app-security**: Secure LLM-powered applications with input validation, output controls, tenant isolation, and abuse prevention. _(risk: safe)_
 - **m365-entra-attack**: Microsoft 365 / Entra ID red-team attack chain _(risk: offensive)_
 - **marketplace-rbac-audit**: Audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions. _(risk: safe)_
+- **mcp-dependency-drift-audit**: Statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers. _(risk: safe)_
 - **mcp-server-security**: Secure Model Context Protocol (MCP) servers with transport encryption, tool authorization, input validation, and audit logging for safe AI agent integrations. _(risk: safe)_
 - **meme-coin-audit**: Meme coin and token security audit _(risk: offensive)_
 - **mid-engagement-ir-detection**: Methodology for detecting client SOC patches, attacker activity, and security-state changes that occur DURING a red-team engagement _(risk: safe)_
